@@ -1,0 +1,197 @@
+
+body {
+    font-family: Roboto;
+    
+}
+
+.all {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+}
+
+.header, .one, .two, .three, .four, .footer {
+    padding: 80px 100px 80px 100px;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    background-color: #1f2937;
+    align-items: center;
+    padding: 10px 100px;
+
+}
+
+.logo {
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+ul { 
+    display: flex;
+    list-style-type: none;
+    gap: 10px
+
+
+    
+
+}
+
+a {
+    text-decoration: none;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+
+
+/* Finish of Header -- Start of First Box of Content */
+
+.one {
+    display: flex;
+    background-color: #1f2937;
+    flex-grow: 1;
+}
+
+.one-left {
+    display: flex;
+    flex-direction: column;
+    color: #e5e7eb;
+    gap: 0;
+}
+
+.one-text {
+    width: 80%;
+    padding: 0;
+}
+
+.one-title {
+    color: #f9faf8;
+    font-weight: 900;
+    font-size: 48px;
+    padding: 0;
+}
+
+button {
+    width: 80px;
+    border-radius: 4px;
+    border: none;
+    text-wrap: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    font-weight: bold;
+    margin-top: 10px;
+
+
+}
+
+.b-one{
+    background-color: #3882f6;
+    color: #f9faf8;
+}
+
+.one-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #75767a;
+    width: 100%;
+    color: #f9faf8;
+    font-weight: 520;
+}
+
+
+
+/* FInish of First Box -- Start of Second */
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.two-top {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: bold;
+    padding-bottom: 40px;
+    
+}
+
+.two-boxes {
+    display: flex;
+    justify-content: space-between;
+    gap: 80px;
+
+
+}
+
+.box-hold {
+    box-sizing: content-box;
+    display: flex;
+    flex-direction: column;
+    width: 130px;
+    align-items: center;
+
+}
+
+.box {
+    border: 4px solid #3882f6;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+}
+
+.box-text {
+    display: flex;
+    width: 130px;
+    font-size: 14px;
+    text-align: center;
+
+}
+
+/* Finish of Second Box -- Start of Third */
+
+.three {
+    display: flex;
+    flex-direction: column;
+    background-color: #e5e7eb;
+    padding: 100px 160px;
+    font-style: italic;
+    font-size: 36px;
+    font-weight: lighter;
+    color: #1f2937;
+
+}
+
+.three-ref {
+    align-self:self-end;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-size: 25px;
+}
+
+/* This the end of Third Box -- Start of Four */
+
+.four {
+
+
+}
+
+.four-box {
+    margin: 0;
+    background-color: #3882f6;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 40px;
+
+}
+
+.footer {
+
+
+}
